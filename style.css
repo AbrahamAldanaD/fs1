@@ -1,0 +1,52 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #f0f0f0;
+}
+
+h2 {
+  color: #2b7a78;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2b7a78;
+  color: white;
+}
+
+/* Header */
+header {
+  background-color: #2b7a78;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Sections */
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+section h2 {
+  font-size: 1.5em;
+}
