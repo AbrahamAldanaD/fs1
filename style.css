@@ -1,4 +1,3 @@
-/* General */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
@@ -8,20 +7,25 @@ body {
 }
 
 h1 {
-  color: #f0f0f0;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
   color: #2b7a78;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-a {
+a:hover {
   color: #333;
   text-decoration: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-decoration: underline;
 }
 
 ul {
   list-style-type: none;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 footer {
@@ -29,6 +33,7 @@ footer {
   padding: 20px;
   background-color: #2b7a78;
   color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Header */
@@ -37,16 +42,19 @@ header {
   padding: 20px;
   color: white;
   text-align: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Sections */
 section {
-  padding: 20px;
-  margin: 20px;
+  padding: 30px;
+  margin: 30px;
   background-color: white;
   border-radius: 8px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 section h2 {
   font-size: 1.5em;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
